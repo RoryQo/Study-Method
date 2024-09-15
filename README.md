@@ -1,4 +1,4 @@
-# R-Bayesian-Analysis
+# R-Study-Method-Bayesian-Analysis
 
 #### Context
 
