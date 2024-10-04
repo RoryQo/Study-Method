@@ -24,27 +24,7 @@ The following parameters were set based on the problem statement:
 
 The simulation involved iterating through different prior sample sizes and computing the posterior distributions for both groups using Monte Carlo methods.
 
-## Findings
-The results were visualized in a plot displaying the relationship between the prior sample size $\(v_0 = k_0)\$ and the calculated probabilities of group A's performance being worse than that of group B. This plot illustrates how the certainty in our analysis changes as we adjust our prior assumptions.
-
 ```{r}
-# Load required libraries
-set.seed(100)
-
-# Define parameters
-n <- 16
-ya <- 75.2
-sa <- 7.3
-yb <- 77.5
-sb <- 8.1
-mu0 <- 75
-s20 <- 100
-k0 <- c(1, 2, 4, 8, 16, 32, 64)
-v0 <- c(1, 2, 4, 8, 16, 32, 64)
-
-# Initialize data frame for storing probabilities
-data <- data.frame(k0 = k0, v0 = v0)
-
 # Monte Carlo simulation for probabilities
 probs <- c()
 for (i in 1:length(k0)) {
@@ -64,10 +44,11 @@ for (i in 1:length(k0)) {
   mean_prob <- mean(theta_postsample_a < theta_postsample_b)
   probs <- c(probs, mean_prob)
 }
+```
 
-data$probabilities <- probs
+## Findings
+The results were visualized in a plot displaying the relationship between the prior sample size $\(v_0 = k_0)\$ and the calculated probabilities of group A's performance being worse than that of group B. This plot illustrates how the certainty in our analysis changes as we adjust our prior assumptions.
 
-# Plot findings
-plot(x = v0, y = probs, xlab = "v0 = k0", ylab = "Probabilities", 
-     main = "P(theta_A < theta_B | y_A, y_B)", 
-     pch = 19, lwd = 2, col = "darkgreen", type = "b")
+<img src="https://raw.githubusercontent.com/RoryQo/R-Study-Method/main/Graph1.jpg" alt="Graph 1" width="700px" />
+
+
