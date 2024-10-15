@@ -1,5 +1,5 @@
 # Bayesian Analysis of Study Methods 
-
+ 
 ## Table of Contents 
 1. [Context](#context)
 2. [Results](#results)
