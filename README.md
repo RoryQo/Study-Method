@@ -1,6 +1,6 @@
 # Bayesian Analysis of Study Methods 
 
-## Table of Contents
+## Table of Contents 
 1. [Context](#context)
 2. [Results](#results)
 3. [Analysis Methodology](#analysis-methodology)
