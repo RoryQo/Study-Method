@@ -5,7 +5,7 @@
 2. [Results](#results) 
 3. [Analysis Methodology](#analysis-methodology)
 4. [Data and Simulation](#data-and-simulation)
-5. [Findings](#findings)
+5. [Findings](#findings) 
 
 ## Context
 In a science classroom, 32 students were randomly assigned to two different study methods (A and B), with 16 students in each group. After several weeks of study, the students took a test designed to yield an average score of 75% with a standard deviation of 10. Group A scored an average of 75.2 with a standard deviation of 7.3, while Group B scored an average of 77.5 with a standard deviation of 8.1.
