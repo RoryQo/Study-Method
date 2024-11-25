@@ -1,7 +1,7 @@
 # Bayesian Analysis of Study Methods    
    
 ## Table of Contents   
-1. [Context](#context)
+1. [Context](#context) 
 2. [Results](#results)  
 3. [Analysis Methodology](#analysis-methodology)
 4. [Data and Simulation](#data-and-simulation)
