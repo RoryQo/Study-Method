@@ -45,7 +45,7 @@ As we increased the prior strength (increasing $k_0$ and $v_0$), the estimates b
 ### Visualization:
 Below is a plot showing the relationship between the prior strength ($\ v_0 = k_0 $) and the posterior probability $\( P(\mu_A < \mu_B) \)$. This demonstrates how the certainty of the results increases as the strength of the prior increases.
 
-![Graph1](https://raw.githubusercontent.com/RoryQo/R-Study-Method/main/Graph1.jpg)
+![Graph1](https://raw.githubusercontent.com/RoryQo/R-Study-Method/main/G1.jpg)
 
 ### Interpretation:
 Based on the Bayesian analysis, we find that study method B appears to be slightly superior to study method A. The probability that study method A is worse than study method B remains stable at approximately **65%** even as the sample size increases. This result suggests that the difference in effectiveness between the two study methods is moderate but consistent. The plot further illustrates the role of prior assumptions, showing how more information (stronger priors) stabilizes the results.
